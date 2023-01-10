@@ -26,8 +26,8 @@ class Cat(Animal):
     def sound(self):
         return 'mai aoooo'
 
-doggy = Dog('swati','rhu')
+doggy = Dog('doberman','labrador')
 print(doggy.sound())
 
-doggy = ('swati','rhu')
+doggy = ('doberman','labrador')
 print(doggy.sound())
